@@ -218,16 +218,13 @@ section{
 }
 
 .about .row .box{
-    height: 460px;
     flex:1 1 40rem;
-    /* background-color: var(--primary-bg-color); */
-    background-color: rgb(224, 226, 217);
+    background-color: var(--primary-bg-color);
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     padding:.5rem 1.5rem;
     margin:1.5rem;
 }
-
 
 .about .row .box .title{
     color:var(--primary-text-color);
@@ -238,15 +235,13 @@ section{
 
 }
 .about .row .box .cvbox{
-    /* background:var(--primary-bg-color); */
-    background-color: rgba(0, 0, 0, 0);
+    background:var(--primary-bg-color);
     border-radius: .5rem;
     text-align: center;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     padding:2rem;
     padding-bottom: 3rem;
     margin:1rem;
-    padding-top: 60%;
 }
 
 .about .row .box .progress{
