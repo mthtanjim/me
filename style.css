@@ -1,9 +1,11 @@
 :root{
-    --main-color:#7c4bb4;
-    --primary-bg-color:#fff;
-    --secondary-bg-color:#eee;
-    --primary-text-color:#222;
-    --secondary-text-color:#666;
+    --main-color:#543f7e;
+    --primary-bg-color:rgb(245, 241, 241);
+    /* --primary-bg-color:linear-gradient(to right, rgb(225, 231, 217) , rgb(238, 238, 202));; */
+    --secondary-bg-color:rgb(255, 255, 255);
+    /* --secondary-bg-color:#eee; */
+    --primary-text-color:rgb(8, 8, 8);
+    --secondary-text-color:rgb(59, 59, 59);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
@@ -20,7 +22,8 @@
 
 *::selection{
     background-color: var(--main-color);
-    color:#fff;
+    color: linear-gradient(to right, rgb(178, 231, 109) , yellow);
+    /* color:#fff; */
 }
 
 html{
@@ -47,8 +50,8 @@ body{
 body.dark-theme{
     --primary-bg-color:#252C48;
     --secondary-bg-color:#171C32;
-    --primary-text-color:#fff;
-    --secondary-text-color:#eee;
+    --primary-text-color:rgb(212, 211, 211);
+    --secondary-text-color:rgb(201, 199, 199);
 }
 
 section{
@@ -165,6 +168,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background: linear-gradient(to top left, #709cfa 0%, #ff99cc 100%);
 }
 
 .home .image{
@@ -175,7 +179,7 @@ section{
 
 .home .image img{
     height:50rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+    box-shadow: 0 .5rem 1rem rgba(209, 209, 209, 0.3);
     border-top: 3rem solid var(--primary-bg-color);
     border-right: 3rem solid var(--primary-bg-color);
     border-bottom: 3rem solid var(--main-color);
