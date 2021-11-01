@@ -1,11 +1,11 @@
 :root{
     --main-color:#543f7e;
-    --primary-bg-color:rgb(245, 241, 241);
+    --primary-bg-color:rgba(231, 228, 236, 0.466);
     /* --primary-bg-color:linear-gradient(to right, rgb(225, 231, 217) , rgb(238, 238, 202));; */
-    --secondary-bg-color:rgb(255, 255, 255);
+    --secondary-bg-color:rgb(246, 247, 255);
     /* --secondary-bg-color:#eee; */
-    --primary-text-color:rgb(8, 8, 8);
-    --secondary-text-color:rgb(59, 59, 59);
+    --primary-text-color:rgb(117, 117, 117);
+    --secondary-text-color:rgb(92, 91, 91);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
@@ -41,6 +41,16 @@ html::-webkit-scrollbar-track{
 
 html::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
+}
+#home .content .hello{
+    color: rgb(198, 198, 199);
+}
+#home .content p{
+    color: rgb(235, 235, 235);
+}
+
+#home .content h3{
+    color: rgb(246, 247, 255);
 }
 
 body{
@@ -100,7 +110,7 @@ section{
 }
 
 .heading{
-    font-size: 5rem;
+    font-size: 3rem;
     color:var(--primary-text-color);
     text-align: center;
     padding:1rem;
@@ -233,7 +243,7 @@ section{
 
 .about .row .box .title{
     color:var(--primary-text-color);
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding:1rem 0;
 }
 .about .row .box .span{
@@ -428,7 +438,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding:1rem 0;
+    padding:3rem 0;
 }
 
 .portfolio .button-container .btn{
@@ -443,7 +453,9 @@ section{
     flex-wrap: wrap;
     padding: 1rem 0;
 }
-
+.portfolio .image-container p{
+    align-content: center;
+}
 .portfolio .image-container .box{
     width:35rem;
     margin: 1rem;
@@ -454,6 +466,12 @@ section{
     position: relative;
     border:1.5rem solid var(--primary-bg-color);
     cursor: pointer;
+}
+
+.portfolio .image-container .btnTag p{
+    text-align: center;
+    margin-top: 5px;
+    color: ;
 }
 
 .portfolio .image-container .box-title {
@@ -670,7 +688,7 @@ section{
 .footer{
     padding:2.5rem 1rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color:var(--primary-text-color);
     background: var(--primary-bg-color);
     margin-top: 1rem;
